@@ -1,0 +1,22 @@
+{
+  "name": "happytrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"EVERYTHING IS FINE\"",
+    "watch": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "3.3.0",
+    "react": "0.12.1",
+    "react-router": "0.11.4"
+  },
+  "devDependencies": {
+    "6to5": "1.14.6",
+    "6to5-loader": "0.2.3",
+    "webpack": "1.4.13"
+  }
+}
