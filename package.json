@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"EVERYTHING IS FINE\"",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "build": "webpack",
+    "start": "serve client"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +15,9 @@
     "immutable": "3.3.0",
     "react": "0.12.1",
     "react-radio-group": "1.0.0",
-    "react-router": "0.11.4"
+    "react-router": "0.11.4",
+    "serve": "1.4.0",
+    "webpack": "1.4.13"
   },
   "devDependencies": {
     "6to5": "1.14.6",
