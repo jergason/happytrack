@@ -12,7 +12,13 @@ const HappyTrack = React.createClass({
   },
 
   getInitialState() {
+    console.log('props is', this.props);
     return {emotion: this.props.emotion, why: this.props.why };
+  },
+
+  componentWillReceiveProps(props) {
+    console.log('got props', arguments);
+    this.setState({emotion:props.emotion, why:props.why});
   },
 
   emotionChanged(emotion) {

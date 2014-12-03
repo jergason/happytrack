@@ -34,6 +34,7 @@ const App = React.createClass({
   renderChildRoute() {
     var isRenderingChildEmotion = this.getParams().id != null;
     if (isRenderingChildEmotion) {
+      console.log('isRenderingChildEmotion', this.getParams().id);
       return <Router.RouteHandler cursor={this.props.cursor.get(this.getParams().id)} />
     } else {
       // we don't have a cursor for this value specifically so just pass

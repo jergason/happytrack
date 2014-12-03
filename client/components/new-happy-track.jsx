@@ -1,5 +1,6 @@
 const React = require('react');
 const HappyTrack = require('./happy-track');
+const Immutable = require('immutable');
 
 const NewHappyTrack = React.createClass({
   submit(emotion) {

@@ -4,7 +4,7 @@ const EMOTIONS = require('../emotions');
 
 const EmotionSelector = React.createClass({
   getInitialState() {
-    return {selectedEmotion: 3};
+    return {selectedEmotion: this.props.initialEmotion};
   },
 
   renderEmotionSelections(emotions) {
